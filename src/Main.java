@@ -14,11 +14,12 @@ public class Main {
      */
     public static void main(String[] args) {
         CalculadoraEjemplo calc = new CalculadoraEjemplo(10, 5);
-
+        System.out.println("Suma con decimales: " + calc.sumar());
         System.out.println("Suma: " + calc.sumar());
         System.out.println("Resta: " + calc.restar());
         System.out.println("Multiplicación: " + calc.multiplicar());
         System.out.println("División: " + calc.dividir());
+        
     }
 
 }
